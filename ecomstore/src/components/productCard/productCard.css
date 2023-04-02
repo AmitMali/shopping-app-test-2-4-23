@@ -1,0 +1,41 @@
+.product-card {
+  width: 360px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid gray;
+  height: fit-content;
+}
+
+.product-card > .product-image {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.product-card > .product-image > img {
+  width: 100%;
+  height: 100%;
+}
+.product-card > .product-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.product-card > .product-meta {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.product-card > .product-meta .product-meta-item,
+.product-card .card-btn {
+  display: inline-block;
+  background-color: antiquewhite;
+  padding: 10px;
+  margin-right: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.product-card .card-btn {
+  background-color: burlywood;
+}
